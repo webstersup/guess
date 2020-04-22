@@ -17,5 +17,4 @@ while True :
 		print('你猜的數字比答案小')
 	elif ans > r :
 		print('你猜的數字比答案大')
-	elif ans == null :
-		print('輸入有問題')
+
