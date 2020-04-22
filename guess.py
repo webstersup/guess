@@ -5,16 +5,18 @@
 
 
 import random
-
 r = random.randint(1,100)
+conunt = 0
+conunt = int(conunt)
 while True :
+	conunt = conunt + 1 
 	ans = input('請輸入數字:')
 	ans = int(ans)
 	if ans == r :
-		print('終於猜對了')
+		print('這是第', conunt, '次猜題,終於猜對了')
 		break
 	elif ans < r :
-		print('你猜的數字比答案小')
+		print('這是第', conunt, '次猜題,你猜的數字比答案小')
 	elif ans > r :
-		print('你猜的數字比答案大')
+		print('這是第', conunt, '次猜題,你猜的數字比答案大')
 
